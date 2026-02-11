@@ -1,0 +1,2778 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>SeisComP</Source>
+  <Module>ObsPy 1.4.2</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2026-02-10T23:30:54.117453Z</Created>
+  <Network code="VW" startDate="2000-01-01T00:00:00.000000Z">
+    <Description>University of Melbourne Seismic Network VW: (VICWAVE)</Description>
+    <Station code="LOCU" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.364674</Latitude>
+      <Longitude unit="DEGREES">145.731308</Longitude>
+      <Elevation>138.0</Elevation>
+      <Site>
+        <Name>VW-LOCU</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2014-02-05T00:00:00.000000Z" endDate="2025-06-05T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="Datalogger#20250527123131.202676.64414">
+          <Type>Seismology Research Centre EchoPro</Type>
+          <Manufacturer>Seismology Research Centre</Manufacturer>
+          <Model>EchoPro</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2014-02-05T00:00:00.000000Z" endDate="2025-06-05T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="Datalogger#20250527123131.202676.64414">
+          <Type>Seismology Research Centre EchoPro</Type>
+          <Manufacturer>Seismology Research Centre</Manufacturer>
+          <Model>EchoPro</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2025-06-05T10:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2014-02-05T00:00:00.000000Z" endDate="2025-06-05T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="Datalogger#20250527123131.202676.64414">
+          <Type>Seismology Research Centre EchoPro</Type>
+          <Manufacturer>Seismology Research Centre</Manufacturer>
+          <Model>EchoPro</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2025-06-05T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHE" startDate="2025-06-05T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="SGWU" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.4077366</Latitude>
+      <Longitude unit="DEGREES">145.895641</Longitude>
+      <Elevation>215.0</Elevation>
+      <Site>
+        <Name>VW-SGWU</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+          <Type>IESE S21g</Type>
+          <Description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>IESE</Manufacturer>
+          <Model>S21g</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>264073128.0</Value>
+            <Frequency>15.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+          <Type>IESE S21g</Type>
+          <Description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>IESE</Manufacturer>
+          <Model>S21g</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>264073128.0</Value>
+            <Frequency>15.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+          <Type>IESE S21g</Type>
+          <Description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>IESE</Manufacturer>
+          <Model>S21g</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>264073128.0</Value>
+            <Frequency>15.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="TRPU" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.29215</Latitude>
+      <Longitude unit="DEGREES">146.120037</Longitude>
+      <Elevation>324.0</Elevation>
+      <Site>
+        <Name>VW-TRPU</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+          <Type>IESE S21g</Type>
+          <Description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>IESE</Manufacturer>
+          <Model>S21g</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>264073128.0</Value>
+            <Frequency>15.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+          <Type>IESE S21g</Type>
+          <Description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>IESE</Manufacturer>
+          <Model>S21g</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>264073128.0</Value>
+            <Frequency>15.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+          <Type>IESE S21g</Type>
+          <Description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>IESE</Manufacturer>
+          <Model>S21g</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>264073128.0</Value>
+            <Frequency>15.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="CLIF" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.01152</Latitude>
+      <Longitude unit="DEGREES">146.173599</Longitude>
+      <Elevation>276.0</Elevation>
+      <Site>
+        <Name>VW-CLIF</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-3ESP_LP60_HF50_SG2000_STgroundVel">
+          <Type>Guralp CMG-3ESP</Type>
+          <Description>Guralp; CMG-3ESP; Long-Period_Corner 60 s; High-Frequency_Corner 50 Hz; Sensitivity 2000 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-3ESP</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>813578000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-3ESP_LP60_HF50_SG2000_STgroundVel">
+          <Type>Guralp CMG-3ESP</Type>
+          <Description>Guralp; CMG-3ESP; Long-Period_Corner 60 s; High-Frequency_Corner 50 Hz; Sensitivity 2000 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-3ESP</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>813578000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-3ESP_LP60_HF50_SG2000_STgroundVel">
+          <Type>Guralp CMG-3ESP</Type>
+          <Description>Guralp; CMG-3ESP; Long-Period_Corner 60 s; High-Frequency_Corner 50 Hz; Sensitivity 2000 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-3ESP</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>813578000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="NARR" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.249557</Latitude>
+      <Longitude unit="DEGREES">146.202377</Longitude>
+      <Elevation>325.0</Elevation>
+      <Site>
+        <Name>VW-NARR</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="MARD" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.461922</Latitude>
+      <Longitude unit="DEGREES">146.1693403</Longitude>
+      <Elevation>236.0</Elevation>
+      <Site>
+        <Name>VW-MARD</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="BEST" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.599457</Latitude>
+      <Longitude unit="DEGREES">146.302581</Longitude>
+      <Elevation>354.0</Elevation>
+      <Site>
+        <Name>VW-BEST</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="STBK" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.304537</Latitude>
+      <Longitude unit="DEGREES">147.055166</Longitude>
+      <Elevation>44.0</Elevation>
+      <Site>
+        <Name>VW-STBK</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+          <Type>Nanometrics TrilliumCompact20</Type>
+          <Description>Nanometrics; TrilliumCompact20; Long-Period_Corner 20 s; Sensitivity 753 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Nanometrics</Manufacturer>
+          <Model>TrilliumCompact20</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>306352795.9</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+          <Type>Nanometrics TrilliumCompact20</Type>
+          <Description>Nanometrics; TrilliumCompact20; Long-Period_Corner 20 s; Sensitivity 753 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Nanometrics</Manufacturer>
+          <Model>TrilliumCompact20</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>306352795.9</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+          <Type>Nanometrics TrilliumCompact20</Type>
+          <Description>Nanometrics; TrilliumCompact20; Long-Period_Corner 20 s; Sensitivity 753 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Nanometrics</Manufacturer>
+          <Model>TrilliumCompact20</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>306352795.9</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="HDDL" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.7219</Latitude>
+      <Longitude unit="DEGREES">146.116282</Longitude>
+      <Elevation>171.0</Elevation>
+      <Site>
+        <Name>VW-HDDL</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="BRIG" startDate="2000-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-37.756523</Latitude>
+      <Longitude unit="DEGREES">147.05775</Longitude>
+      <Elevation>227.0</Elevation>
+      <Site>
+        <Name>VW-BRIG</Name>
+        <Country>Australia</Country>
+      </Site>
+      <CreationDate>2000-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="CHE" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHN" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2000-01-01T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation>0.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+          <Type>Guralp CMG-6T</Type>
+          <Description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>Guralp</Manufacturer>
+          <Model>CMG-6T</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+          <Type>SeismologyResearchCentre Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>976293600.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+  <Network code="S1" startDate="2011-09-01T02:22:00.000000Z" restrictedStatus="open">
+    <Description>Australian Seismometers in Schools (AUSiS)</Description>
+    <Comment id="0">
+      <Value>'Australian National University (ANU, Australia). (2011). Australian Seismometers in Schools [Data set]. AusPass. https://doi.org/10.7914/SN/S1'</Value>
+    </Comment>
+    <Comment id="1">
+      <Value>Australian Seismometers in Schools is a dual purpose seismic network. The program offers both education outreach and provides quality data for monitoring and research. We use Guralp CMG-6TD seismometers and stream data live data to the schools and Geoscience Australia as well as providing the data to IRIS and the Australian AusPass data server. AuSIS infrastructure is supported by AuScope Geophysical Observatory program.</Value>
+    </Comment>
+    <Station code="AUSSC" startDate="2013-11-21T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">-38.0977</Latitude>
+      <Longitude unit="DEGREES">147.0825</Longitude>
+      <Elevation>19.0</Elevation>
+      <Site>
+        <Name>Sale College</Name>
+        <Country>AUS</Country>
+      </Site>
+      <CreationDate>2013-11-21T00:00:00.000000Z</CreationDate>
+      <Channel code="BHN" startDate="2013-11-21T00:00:00.000000Z" endDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">10.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>10</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6L01</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C2943</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2465251418.8986197</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHN" startDate="2013-11-21T00:00:00.000000Z" endDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6L01</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C2943</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2465251418.8986197</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="BHE" startDate="2013-11-21T00:00:00.000000Z" endDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">10.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>10</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6L01</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C2943</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2465251418.8986197</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHE" startDate="2013-11-21T00:00:00.000000Z" endDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6L01</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C2943</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2465251418.8986197</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="BHZ" startDate="2013-11-21T00:00:00.000000Z" endDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">10.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>10</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6L01</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C2943</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2494475398.462194</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2013-11-21T00:00:00.000000Z" endDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6L01</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C2943</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2494475398.462194</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="BHN" startDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">10.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>10</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6X21</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C4407</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2508033900.0554614</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHN" startDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6X21</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C4407</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2508033900.0554614</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="BHE" startDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">10.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>10</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6X21</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C4407</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2508033900.0554614</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHE" startDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6X21</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C4407</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2508033900.0554614</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="BHZ" startDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">10.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>10</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6X21</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C4407</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2508033900.0554614</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2022-07-14T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.0977</Latitude>
+        <Longitude unit="DEGREES">147.0825</Longitude>
+        <Elevation>19.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>BB</Type>
+          <Description>Guralp CMG-6TD 30s-100Hz (BB)</Description>
+          <Model>Guralp CMG-6T</Model>
+          <SerialNumber>T6X21</SerialNumber>
+        </Sensor>
+        <DataLogger>
+          <Model>Guralp CMG-6TD</Model>
+          <SerialNumber>C4407</SerialNumber>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>2508033900.0554614</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+  <Network code="OZ" startDate="1976-01-01T00:00:00.000000Z">
+    <Comment id="1">
+      <Value>Seismology Research Centre, Melbourne, Australia</Value>
+      <BeginEffectiveTime>1976-01-01T00:00:00.000000Z</BeginEffectiveTime>
+      <Author>
+        <Name>Adam Pascale</Name>
+        <Agency>SRC</Agency>
+        <Email>quake@src.com.au</Email>
+      </Author>
+    </Comment>
+    <Operator>
+      <Agency>SRC</Agency>
+      <Contact/>
+      <WebSite/>
+    </Operator>
+    <Station code="KORUM" startDate="2009-03-15T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.40644</Latitude>
+      <Longitude unit="DEGREES">145.85085</Longitude>
+      <Elevation>354.0</Elevation>
+      <Site>
+        <Name>Korumburra</Name>
+      </Site>
+      <Equipment>
+        <Type>Seismograph</Type>
+        <Description>6th Generation Kelunji Seismic Data Logger</Description>
+        <Manufacturer>Seismology Research Centre</Manufacturer>
+        <Model>Echo Pro</Model>
+      </Equipment>
+      <CreationDate>2009-03-15T00:00:00.000000Z</CreationDate>
+      <Channel code="HHE" startDate="2009-03-15T00:00:00.000000Z" locationCode="60">
+        <Latitude unit="DEGREES">-38.40644</Latitude>
+        <Longitude unit="DEGREES">145.85085</Longitude>
+        <Elevation>354.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Sprengnether S6000 ser#10000+</Type>
+          <Description>Sprengnether S6000 ser#10000+</Description>
+          <SerialNumber>10462</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250119230606.355973.33"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>603979712.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHN" startDate="2009-03-15T00:00:00.000000Z" locationCode="60">
+        <Latitude unit="DEGREES">-38.40644</Latitude>
+        <Longitude unit="DEGREES">145.85085</Longitude>
+        <Elevation>354.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Sprengnether S6000 ser#10000+</Type>
+          <Description>Sprengnether S6000 ser#10000+</Description>
+          <SerialNumber>10462</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250119230606.356157.35"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>603979712.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2009-03-15T00:00:00.000000Z" locationCode="60">
+        <Latitude unit="DEGREES">-38.40644</Latitude>
+        <Longitude unit="DEGREES">145.85085</Longitude>
+        <Elevation>354.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Sprengnether S6000 ser#10000+</Type>
+          <Description>Sprengnether S6000 ser#10000+</Description>
+          <SerialNumber>10462</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250119230606.356313.37"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>603979712.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="JEER" startDate="2015-10-15T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.3476</Latitude>
+      <Longitude unit="DEGREES">146.41696</Longitude>
+      <Elevation>236.0</Elevation>
+      <Site>
+        <Name>Jeeralang Junction</Name>
+      </Site>
+      <Equipment>
+        <Type>Seismograph</Type>
+        <Description>7th Generation Kelunji Seismic Data Logger</Description>
+        <Manufacturer>Seismology Research Centre</Manufacturer>
+        <Model>Gecko</Model>
+        <SerialNumber>02000288</SerialNumber>
+      </Equipment>
+      <CreationDate>2015-10-15T00:00:00.000000Z</CreationDate>
+      <Channel code="HHE" startDate="2015-10-15T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.3476</Latitude>
+        <Longitude unit="DEGREES">146.41696</Longitude>
+        <Elevation>236.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 6T</Type>
+          <Description>Guralp 6T</Description>
+          <SerialNumber>T6615</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.319207.66"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>972910720.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHN" startDate="2015-10-15T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.3476</Latitude>
+        <Longitude unit="DEGREES">146.41696</Longitude>
+        <Elevation>236.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 6T</Type>
+          <Description>Guralp 6T</Description>
+          <SerialNumber>T6615</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.319367.68"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>972910720.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2015-10-15T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-38.3476</Latitude>
+        <Longitude unit="DEGREES">146.41696</Longitude>
+        <Elevation>236.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 6T</Type>
+          <Description>Guralp 6T</Description>
+          <SerialNumber>T6615</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.319527.70"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>972910720.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GLMM" startDate="1999-02-12T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-37.90266</Latitude>
+      <Longitude unit="DEGREES">146.79897</Longitude>
+      <Elevation>113.0</Elevation>
+      <Site>
+        <Name>Glenmaggie Dam</Name>
+      </Site>
+      <Equipment>
+        <Type>Seismograph</Type>
+        <Description>7th Generation Kelunji Seismic Data Logger</Description>
+        <Manufacturer>Seismology Research Centre</Manufacturer>
+        <Model>Gecko</Model>
+        <SerialNumber>02000231</SerialNumber>
+      </Equipment>
+      <CreationDate>1999-02-12T00:00:00.000000Z</CreationDate>
+      <Channel code="HHE" startDate="1999-02-12T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-37.90266</Latitude>
+        <Longitude unit="DEGREES">146.79897</Longitude>
+        <Elevation>113.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 40T</Type>
+          <Description>Guralp 40T</Description>
+          <SerialNumber>T4B38</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.327193.166"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>427269952.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHN" startDate="1999-02-12T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-37.90266</Latitude>
+        <Longitude unit="DEGREES">146.79897</Longitude>
+        <Elevation>113.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 40T</Type>
+          <Description>Guralp 40T</Description>
+          <SerialNumber>T4B38</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.327354.168"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>364030784.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="1999-02-12T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-37.90266</Latitude>
+        <Longitude unit="DEGREES">146.79897</Longitude>
+        <Elevation>113.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 40T</Type>
+          <Description>Guralp 40T</Description>
+          <SerialNumber>T4B38</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.327514.170"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>424837696.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="TOT" startDate="1990-12-12T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-37.82313</Latitude>
+      <Longitude unit="DEGREES">146.40738</Longitude>
+      <Elevation>708.0</Elevation>
+      <Site>
+        <Name>Thomson Abutment Tower</Name>
+      </Site>
+      <Equipment>
+        <Type>Seismograph</Type>
+        <Description>7th Generation Kelunji Seismic Data Logger</Description>
+        <Manufacturer>Seismology Research Centre</Manufacturer>
+        <Model>Gecko</Model>
+        <SerialNumber>02000946</SerialNumber>
+      </Equipment>
+      <CreationDate>1990-12-12T00:00:00.000000Z</CreationDate>
+      <Channel code="HHE" startDate="1990-12-12T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">-37.82313</Latitude>
+        <Longitude unit="DEGREES">146.40738</Longitude>
+        <Elevation>708.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>S6000 ser# 0-9999</Type>
+          <Description>S6000 ser# 0-9999</Description>
+          <SerialNumber>8276</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.333036.242"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>179449088.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHN" startDate="1990-12-12T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">-37.82313</Latitude>
+        <Longitude unit="DEGREES">146.40738</Longitude>
+        <Elevation>708.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>S6000 ser# 0-9999</Type>
+          <Description>S6000 ser# 0-9999</Description>
+          <SerialNumber>8276</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.333196.244"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>179449056.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="1990-12-12T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">-37.82313</Latitude>
+        <Longitude unit="DEGREES">146.40738</Longitude>
+        <Elevation>708.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>S6000 ser# 0-9999</Type>
+          <Description>S6000 ser# 0-9999</Description>
+          <SerialNumber>8276</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.333357.246"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>179561840.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="WILL" startDate="2000-07-26T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-38.3406</Latitude>
+      <Longitude unit="DEGREES">146.73599</Longitude>
+      <Elevation>428.0</Elevation>
+      <Site>
+        <Name>Willung South</Name>
+      </Site>
+      <Equipment>
+        <Type>Seismograph</Type>
+        <Description>7th Generation Kelunji Seismic Data Logger</Description>
+        <Manufacturer>Seismology Research Centre</Manufacturer>
+        <Model>Gecko</Model>
+        <SerialNumber>02001162</SerialNumber>
+      </Equipment>
+      <CreationDate>2000-07-26T00:00:00.000000Z</CreationDate>
+      <Channel code="HHE" startDate="2000-07-26T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">-38.3406</Latitude>
+        <Longitude unit="DEGREES">146.73599</Longitude>
+        <Elevation>428.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 6T</Type>
+          <Description>Guralp 6T</Description>
+          <SerialNumber>T6J00</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.334886.266"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>963851008.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHN" startDate="2000-07-26T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">-38.3406</Latitude>
+        <Longitude unit="DEGREES">146.73599</Longitude>
+        <Elevation>428.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 6T</Type>
+          <Description>Guralp 6T</Description>
+          <SerialNumber>T6J00</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.335047.268"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>964334144.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2000-07-26T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">-38.3406</Latitude>
+        <Longitude unit="DEGREES">146.73599</Longitude>
+        <Elevation>428.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Guralp 6T</Type>
+          <Description>Guralp 6T</Description>
+          <SerialNumber>T6J00</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250117012637.335207.270"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>963911424.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="CDNM" startDate="1996-04-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-37.94652</Latitude>
+      <Longitude unit="DEGREES">145.42525</Longitude>
+      <Elevation>244.0</Elevation>
+      <Site>
+        <Name>Cardinia Reservoir</Name>
+      </Site>
+      <Equipment>
+        <Type>Seismograph</Type>
+        <Description>6th Generation Kelunji Seismic Data Logger</Description>
+        <Manufacturer>Seismology Research Centre</Manufacturer>
+        <Model>Echo Pro</Model>
+      </Equipment>
+      <CreationDate>1996-04-01T00:00:00.000000Z</CreationDate>
+      <Channel code="HHE" startDate="1996-04-01T00:00:00.000000Z" locationCode="60">
+        <Latitude unit="DEGREES">-37.94652</Latitude>
+        <Longitude unit="DEGREES">145.42525</Longitude>
+        <Elevation>244.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Sprengnether S6000 ser#10000+</Type>
+          <Description>Sprengnether S6000 ser#10000+</Description>
+          <SerialNumber>10446</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250119230606.382248.309"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>301989856.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHN" startDate="1996-04-01T00:00:00.000000Z" locationCode="60">
+        <Latitude unit="DEGREES">-37.94652</Latitude>
+        <Longitude unit="DEGREES">145.42525</Longitude>
+        <Elevation>244.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Sprengnether S6000 ser#10000+</Type>
+          <Description>Sprengnether S6000 ser#10000+</Description>
+          <SerialNumber>10446</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250119230606.382452.311"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>301989856.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="1996-04-01T00:00:00.000000Z" locationCode="60">
+        <Latitude unit="DEGREES">-37.94652</Latitude>
+        <Longitude unit="DEGREES">145.42525</Longitude>
+        <Elevation>244.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor>
+          <Type>Sprengnether S6000 ser#10000+</Type>
+          <Description>Sprengnether S6000 ser#10000+</Description>
+          <SerialNumber>10446</SerialNumber>
+        </Sensor>
+        <DataLogger resourceId="Datalogger/20250119230606.382645.313"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>301989856.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+  <Network code="AM" startDate="2016-01-01T00:00:00.000000Z" restrictedStatus="open">
+    <Description>RASPBERRY SHAKE NETWORK</Description>
+    <Station code="S6197" startDate="2021-08-19T11:26:54.485000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">-37.927927927927925</Latitude>
+      <Longitude unit="DEGREES">146.63296494184834</Longitude>
+      <Elevation>300.0</Elevation>
+      <Site>
+        <Name>Raspberry Shake Citizen Science Station</Name>
+      </Site>
+      <CreationDate>2021-08-19T11:26:54.485000Z</CreationDate>
+      <Channel code="HDF" startDate="2021-08-19T11:26:54.485000Z" restrictedStatus="open" locationCode="00">
+        <Latitude unit="DEGREES">-37.927927927927925</Latitude>
+        <Longitude unit="DEGREES">146.63296494184834</Longitude>
+        <Elevation>300.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <Sensor resourceId="Sensor-BOOM-RS-V5-1s-ATM">
+          <Type>Raspberry Shake</Type>
+          <Description>Atmospheric Pressure</Description>
+          <Manufacturer>Raspberry Shake</Manufacturer>
+        </Sensor>
+        <DataLogger resourceId="Datalogger-SHAKE-100hz"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>56000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>PA</Name>
+              <Description>Atmospheric Pressure in Pascal</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="EHZ" startDate="2021-08-19T11:26:54.485000Z" restrictedStatus="open" locationCode="00">
+        <Latitude unit="DEGREES">-37.927927927927925</Latitude>
+        <Longitude unit="DEGREES">146.63296494184834</Longitude>
+        <Elevation>300.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <Sensor resourceId="Sensor-SnB-RS-V5-VEL">
+          <Type>Raspberry Shake</Type>
+          <Description>Velocity</Description>
+          <Manufacturer>Raspberry Shake</Manufacturer>
+        </Sensor>
+        <DataLogger resourceId="Datalogger-SHAKE-100hz"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>399650000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="R8AB5" startDate="2025-10-22T12:53:59.074000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">-38.054054054054056</Latitude>
+      <Longitude unit="DEGREES">145.49184118608312</Longitude>
+      <Elevation>78.0</Elevation>
+      <Site>
+        <Name>Raspberry Shake Citizen Science Station</Name>
+      </Site>
+      <CreationDate>2025-10-22T12:53:59.074000Z</CreationDate>
+      <Channel code="EHZ" startDate="2025-10-22T12:53:59.074000Z" restrictedStatus="open" locationCode="00">
+        <Latitude unit="DEGREES">-38.054054054054056</Latitude>
+        <Longitude unit="DEGREES">145.49184118608312</Longitude>
+        <Elevation>78.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <Sensor resourceId="Sensor-4D-RS-V9-VEL">
+          <Type>Raspberry Shake</Type>
+          <Description>Velocity</Description>
+          <Manufacturer>Raspberry Shake</Manufacturer>
+        </Sensor>
+        <DataLogger resourceId="Datalogger-SHAKE-100hz"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>399650000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="ENE" startDate="2025-10-22T12:53:59.074000Z" restrictedStatus="open" locationCode="00">
+        <Latitude unit="DEGREES">-38.054054054054056</Latitude>
+        <Longitude unit="DEGREES">145.49184118608312</Longitude>
+        <Elevation>78.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <Sensor resourceId="Sensor-4D-RS-V9-ACC">
+          <Type>Raspberry Shake</Type>
+          <Description>Acceleration</Description>
+          <Manufacturer>Raspberry Shake</Manufacturer>
+        </Sensor>
+        <DataLogger resourceId="Datalogger-SHAKE-100hz"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>384500.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S**2</Name>
+              <Description>Acceleration in Meters Per Second Squared</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="ENN" startDate="2025-10-22T12:53:59.074000Z" restrictedStatus="open" locationCode="00">
+        <Latitude unit="DEGREES">-38.054054054054056</Latitude>
+        <Longitude unit="DEGREES">145.49184118608312</Longitude>
+        <Elevation>78.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <Sensor resourceId="Sensor-4D-RS-V9-ACC">
+          <Type>Raspberry Shake</Type>
+          <Description>Acceleration</Description>
+          <Manufacturer>Raspberry Shake</Manufacturer>
+        </Sensor>
+        <DataLogger resourceId="Datalogger-SHAKE-100hz"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>384500.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S**2</Name>
+              <Description>Acceleration in Meters Per Second Squared</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+      <Channel code="ENZ" startDate="2025-10-22T12:53:59.074000Z" restrictedStatus="open" locationCode="00">
+        <Latitude unit="DEGREES">-38.054054054054056</Latitude>
+        <Longitude unit="DEGREES">145.49184118608312</Longitude>
+        <Elevation>78.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>100</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <Sensor resourceId="Sensor-4D-RS-V9-ACC">
+          <Type>Raspberry Shake</Type>
+          <Description>Acceleration</Description>
+          <Manufacturer>Raspberry Shake</Manufacturer>
+        </Sensor>
+        <DataLogger resourceId="Datalogger-SHAKE-100hz"/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>384500.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S**2</Name>
+              <Description>Acceleration in Meters Per Second Squared</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name></Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

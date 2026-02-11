@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/62732d75-3651-408b-82c8-07ecb41cb3da">
+    <event publicID="smi:local/d300315d-81af-4e04-bc33-b70c9d8120f7">
+      <origin publicID="smi:local/45c93991-a815-4292-984d-03454de198d4">
+        <time>
+          <value>2026-02-03T06:02:44.997276Z</value>
+        </time>
+        <latitude>
+          <value>-38.03743898631542</value>
+        </latitude>
+        <longitude>
+          <value>146.38514692157267</value>
+        </longitude>
+        <depth>
+          <value>16015.625</value>
+        </depth>
+        <depthType>from location</depthType>
+        <quality>
+          <usedPhaseCount>35</usedPhaseCount>
+        </quality>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment>
+          <text>Localized by: SeisBench-PyOcto</text>
+        </comment>
+      </origin>
+      <magnitude publicID="smi:local/6d7e3f01-4f39-4365-bb5e-6f4f2a7ebea7">
+        <mag>
+          <value>99.0</value>
+        </mag>
+        <type>ML</type>
+      </magnitude>
+      <pick publicID="smi:local/14785693-0102-4ac6-ac3f-b68d640759b9">
+        <time>
+          <value>2026-02-03T06:02:50.173000Z</value>
+        </time>
+        <waveformID networkCode="AM" stationCode="S6197" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/0100265b-94cd-49f7-b397-19a82b7202de">
+          <text>residual=0.038 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/c412f028-214d-46f3-a6ea-ee65c488ea48">
+        <time>
+          <value>2026-02-03T06:02:59.900000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="CDNM" locationCode="60" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/6971df13-f2ed-478b-8827-d4bbbe30e718">
+          <text>residual=-0.005 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/95d6f84c-085d-452d-8c82-1ce9348e0840">
+        <time>
+          <value>2026-02-03T06:03:10.080000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="CDNM" locationCode="60" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/38efff32-c385-4bec-9a0c-7d70801dee1c">
+          <text>residual=0.093 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/dfb2c4c3-80e2-431b-8310-c71104e9fba7">
+        <time>
+          <value>2026-02-03T06:02:52.271667Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="GLMM" locationCode="" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/70b52854-0c6e-421f-a8fb-f97d59535c9d">
+          <text>residual=-0.053 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/078fc195-08b4-42cc-bc1c-eafb892e7c4a">
+        <time>
+          <value>2026-02-03T06:02:56.911667Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="GLMM" locationCode="" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/8b549ee1-a3cf-490c-abb2-4103959b8ad3">
+          <text>residual=-0.368 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/9c959005-0c8b-4a03-85cc-7ffaa9f7544c">
+        <time>
+          <value>2026-02-03T06:02:51.063000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="JEER" locationCode="" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/ba1d7d37-539e-463a-93a5-2ec38db65dc3">
+          <text>residual=-0.516 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/b1b6a6d7-a9bf-4958-ab75-5992925d8d83">
+        <time>
+          <value>2026-02-03T06:02:55.753000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="JEER" locationCode="" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/01a741a6-49d6-4c6a-b043-42cd3b7e2827">
+          <text>residual=-0.277 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/f3697a54-c6bd-4b9c-ba04-78e13c18ec4a">
+        <time>
+          <value>2026-02-03T06:02:56.090000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="KORUM" locationCode="60" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/d5935f9b-9cb3-4894-9018-52bd22b0c99d">
+          <text>residual=0.006 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/22b56bde-1bda-4141-92c5-81932de412bc">
+        <time>
+          <value>2026-02-03T06:03:03.790000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="KORUM" locationCode="60" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/39001dcc-f579-4bb3-8ea0-2b5d2e4d3fd7">
+          <text>residual=0.209 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/fe3f832e-58f0-417e-9c2e-941684c26646">
+        <time>
+          <value>2026-02-03T06:02:50.121000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="TOT" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/05d685db-5cb1-4d3e-9055-3349b3e76d7d">
+          <text>residual=0.099 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/a5356279-8cba-4136-a0fb-e7202fe30f2c">
+        <time>
+          <value>2026-02-03T06:02:53.251000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="TOT" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/3e37c37f-df2a-424b-b58e-756cb300f7ac">
+          <text>residual=-0.169 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/2007c010-50e0-428b-96d3-56a88e1d7207">
+        <time>
+          <value>2026-02-03T06:02:52.977000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="WILL" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/2884c8a3-7910-4adf-abbc-9766b133052a">
+          <text>residual=-0.374 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/49cbdca0-ad83-4ee8-98ab-05983e41d8d1">
+        <time>
+          <value>2026-02-03T06:02:58.557000Z</value>
+        </time>
+        <waveformID networkCode="OZ" stationCode="WILL" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/5c15c6ca-6ede-4f72-8c7d-21e96ff8787c">
+          <text>residual=-0.443 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/9234d593-4b1b-4b20-8671-401611278939">
+        <time>
+          <value>2026-02-03T06:02:56.620000Z</value>
+        </time>
+        <waveformID networkCode="S1" stationCode="AUSSC" locationCode="" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/598d0d02-f271-4ee1-9483-2482d15d795a">
+          <text>residual=0.655 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/02551375-4de0-4723-bc99-5fe7f885fb5f">
+        <time>
+          <value>2026-02-03T06:03:04.330000Z</value>
+        </time>
+        <waveformID networkCode="S1" stationCode="AUSSC" locationCode="" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/e9f00a9d-0a4e-4df8-bd9c-57f4565b1f73">
+          <text>residual=0.947 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/189757e1-ed8b-4016-a9ed-096a30e08703">
+        <time>
+          <value>2026-02-03T06:02:55.340000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="BEST" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/f04c1f96-69e3-4fef-92f7-ea941e7103e7">
+          <text>residual=-0.847 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/8d40a0be-0820-43b9-b5e5-745fd1816174">
+        <time>
+          <value>2026-02-03T06:03:03.510000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="BEST" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/dbd15990-bde9-46a8-8fce-28dbc8b34d5a">
+          <text>residual=-0.245 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/cb2e02b1-156d-4e59-a54e-4f585452126f">
+        <time>
+          <value>2026-02-03T06:02:56.610000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="BRIG" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/9b985ef6-85c8-44eb-b2e6-3852fed31bad">
+          <text>residual=-0.252 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/0d2bdc2f-3277-4191-a6f1-2312c1409fd3">
+        <time>
+          <value>2026-02-03T06:03:04.640000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="BRIG" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/2b285cd2-fac6-4f04-9c2c-24ebb29d815f">
+          <text>residual=-0.247 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/52f20a29-f675-4590-afcb-e149b5e42699">
+        <time>
+          <value>2026-02-03T06:02:49.560000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="CLIF" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/30551f38-13d1-4624-b477-dc5dc90715eb">
+          <text>residual=0.274 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/6ca021f1-7a00-4284-841d-b7995a00e4f2">
+        <time>
+          <value>2026-02-03T06:02:52.340000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="CLIF" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/19b63d83-090b-41f5-9a3d-c6b0f4f90b0d">
+          <text>residual=0.154 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/54dc860f-8f0b-4a7d-847a-d9d639c066b7">
+        <time>
+          <value>2026-02-03T06:02:58.380000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="HDDL" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/83d61b12-a16d-49b2-9d88-1cc353cad98d">
+          <text>residual=-0.610 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/88a2f0c8-24a9-44d4-81db-7ea74c4baa03">
+        <time>
+          <value>2026-02-03T06:03:08.350000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="HDDL" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/01281e13-6673-40a2-8135-c4da3fd8145b">
+          <text>residual=-0.103 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/78882cfc-4676-4312-a1b0-b3dbb3337e30">
+        <time>
+          <value>2026-02-03T06:02:57.170000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="LOCU" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/547c73c5-3e65-42cd-8f5f-0f865798c9ee">
+          <text>residual=0.153 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/5658749a-4a9c-48b3-b0d5-38f18d21c4ef">
+        <time>
+          <value>2026-02-03T06:03:05.870000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="LOCU" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/83115381-4071-4567-bb9e-ad246e6d90e5">
+          <text>residual=0.724 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/840bc41f-11ac-49db-9429-9731b9d8152b">
+        <time>
+          <value>2026-02-03T06:02:54.020000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="MARD" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/3770c072-69c4-47e5-9752-5ec9063e8dc8">
+          <text>residual=-0.167 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/44519701-b081-4fa2-b209-f74b29001b0f">
+        <time>
+          <value>2026-02-03T06:02:59.840000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="MARD" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/fb997293-a888-426a-aea5-00bb8606d7d8">
+          <text>residual=-0.562 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/9af48c94-126e-49e7-af44-c0e4ec5db391">
+        <time>
+          <value>2026-02-03T06:02:50.800000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="NARR" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/805e7d85-597b-46b4-8ce6-1813f850b569">
+          <text>residual=0.142 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/f194fed0-a667-4141-a26b-362cd5127fdf">
+        <time>
+          <value>2026-02-03T06:02:54.420000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="NARR" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/9fa1c46e-299f-4eae-8d45-f5a962cbbd7d">
+          <text>residual=-0.067 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/683a3b9d-7d25-4002-a598-475dff7c5ba4">
+        <time>
+          <value>2026-02-03T06:02:55.540000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="SGWU" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/80a4dfd1-66c9-40a9-8fd1-c321ed349b96">
+          <text>residual=-0.072 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/d99dd2ca-2f77-41fb-b4f6-ee5d6470378c">
+        <time>
+          <value>2026-02-03T06:03:03.070000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="SGWU" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/ea8af36d-5f03-4424-bb36-834174742b1f">
+          <text>residual=0.279 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/4b0018fd-64db-4ed1-9183-694159c3564c">
+        <time>
+          <value>2026-02-03T06:02:56.810000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="STBK" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/f5b40a32-1c99-4c45-914c-63b37bb89aab">
+          <text>residual=0.139 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/ee6b3fdb-3e77-457a-b517-04c12cdf0a2f">
+        <time>
+          <value>2026-02-03T06:03:05.740000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="STBK" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/5d615068-edc2-41db-b1bd-3ce397b86d0a">
+          <text>residual=1.174 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/dc062a27-a20e-4cd0-82ae-29b4e48772c3">
+        <time>
+          <value>2026-02-03T06:02:51.950000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="TRPU" locationCode="00" channelCode="P"></waveformID>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/171b3afd-874e-4e1d-b120-d920b85c9604">
+          <text>residual=0.043 s</text>
+        </comment>
+      </pick>
+      <pick publicID="smi:local/e6b9ecfa-e92c-4e8d-b10c-02c43506a016">
+        <time>
+          <value>2026-02-03T06:02:56.830000Z</value>
+        </time>
+        <waveformID networkCode="VW" stationCode="TRPU" locationCode="00" channelCode="S"></waveformID>
+        <phaseHint>S</phaseHint>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <comment id="smi:local/b56fdec9-0bea-47e8-90ac-458c7eb7c4dc">
+          <text>residual=0.250 s</text>
+        </comment>
+      </pick>
+    </event>
+  </eventParameters>
+</q:quakeml>
